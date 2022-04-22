@@ -1,0 +1,781 @@
+/*Fonts*/
+@font-face {
+  font-family: Calibri;
+  src: url(../fonts/calibri.ttf);
+}
+
+@font-face {
+  font-family: Euphoria Script;
+  src: url(../fonts/euphoriascript.otf);
+}
+
+@font-face {
+  font-family: EB Garamond;
+  src: url(../fonts/EBgaramond-regular.ttf);
+}
+
+body {
+  font-family: Calibri;
+  background-image: url("../images/main-bg.jpg");
+}
+
+.swiper-container {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  top: 50% !important;
+}
+
+.swiper-container-horizontal > .swiper-scrollbar {
+  display: none;
+}
+
+/*Navbar*/
+.my-navbar {
+  background-image: url("../images/texture-1.png");
+  background-color: #111;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-bottom: 5px solid #191919;
+  box-shadow: 1px 1px 5px #090909;
+}
+
+.navbar-dark .navbar-brand {
+  padding-top: 6px;
+  padding-bottom: 2px;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-link.mr-1.active {
+  color: #ccc !important;
+}
+
+.navbar-nav .nav-link {
+  font-size: 17px;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ccc;
+  transition: 0.3s;
+}
+
+.nav-icon1 {
+  margin-right: 4px;
+  font-size: 15px;
+}
+
+/*Dropdown Navbar*/
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-image: url("../images/texture-1.png");
+  border-radius: 0;
+  border: 0;
+}
+
+.dropdown-item:first-child {
+  border-radius: 0;
+}
+
+.dropdown-item:last-child {
+  border-radius: 0;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: #1f1f1f;
+  text-decoration: none;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #1f1f1f !important;
+}
+
+/*Navbar Mobile*/
+.navbar-dark .navbar-toggler {
+  border: 0;
+}
+
+.flag-1 {
+  margin-right: 6px;
+}
+
+/*Halaman Beranda*/
+
+/*Carousel*/
+.carousel-1 {
+  border-bottom: 5px solid #e2e2e2;
+}
+
+/*Tentang Kami*/
+.tentang-kami {
+  margin-top: 37px;
+}
+
+.tentang-kami .img-1 {
+  box-shadow: 3px 3px 5px #b5b5b5;
+}
+
+.tentang-kami .isi-tentang-kami h1 {
+  font-family: "Euphoria Script", cursive;
+  text-align: center;
+  color: #c6a65c;
+}
+
+.tentang-kami .isi-tentang-kami {
+  padding: 10px;
+  margin-top: 40px;
+}
+
+.tentang-kami .isi-tentang-kami p {
+  position: relative;
+  color: #c6a65c;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 25px;
+  text-align-last: center;
+  margin-top: 20px;
+  padding-left: 30px;
+  display: inline-block;
+  font-family: EB Garamond;
+  font-style: italic;
+}
+
+.tentang-kami .isi-tentang-kami .quotes-top {
+  margin-top: -17px;
+  margin-right: 4px;
+}
+
+/*Paket Dekorasi*/
+.paket-dekorasi {
+  margin-top: 47px;
+}
+
+.paket-dekorasi h2 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 36px;
+  color: #c6a65c;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+}
+
+.paket-dekorasi .tagline-1 {
+  font-family: Times New Roman;
+  display: block;
+  margin-bottom: 27px;
+  color: #c6a65c;
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: -6px;
+}
+
+.pilihan-paket-dekor {
+  background-image: url("../images/main-bg.jpg");
+  box-shadow: 1px 2px 7px #888;
+  border-radius: 97px 97px 0 0;
+  border: 0;
+  margin-top: 12px;
+}
+
+.pilihan-paket-dekor .card-body-1 {
+  background-color: #c6a65c;
+  border-radius: 60% 60% 0 0;
+  padding-top: 12px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 12px;
+}
+
+.pilihan-paket-dekor .nama-paket,
+.pilihan-paket-dekor .nama-paket a {
+  font-family: "Euphoria Script", cursive;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 33px;
+  color: #fff;
+  text-shadow: 3px 1px 2px #666;
+  letter-spacing: -1px;
+}
+
+.pilihan-paket-dekor .nama-paket,
+.pilihan-paket-dekor .nama-paket a:hover {
+  text-decoration: none;
+}
+
+.pilihan-paket-dekor .cover-paket-1 {
+  border-radius: 0;
+}
+
+.pilihan-paket-dekor .rating {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: -44px;
+  background-color: #fff;
+  display: none;
+}
+
+.pilihan-paket-dekor:hover .rating {
+  display: block;
+  transition: 0.3s;
+  background-color: #dfdfdf;
+  opacity: 0.8;
+}
+
+.star-icon {
+  color: #c6a65c;
+}
+
+/*Galeri*/
+.galeri {
+  margin-top: 50px;
+}
+
+.galeri h2 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 36px;
+  color: #c6a65c;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+.galeri .img-galeri {
+  margin-bottom: 27px;
+  box-shadow: 3px 3px 5px #b5b5b5;
+}
+
+/*Halaman Tentang Kami*/
+
+/*Tentang Kami*/
+.tentang-kami_ {
+  margin-top: 0;
+}
+
+.tentang-kami_ .img-2 {
+  margin-bottom: 20px;
+  border-bottom: 5px solid #e2e2e2;
+  width: 100%;
+}
+
+.tentang-kami_ h2 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 37px;
+  color: #c6a65c;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-bottom: 25px;
+}
+.tentang-kami_ p {
+  font-family: EB Garamond;
+  font-size: 18px;
+  font-style: italic;
+  color: #c6a65c;
+  text-align: center;
+  text-align-last: center;
+  margin-bottom: 19px;
+}
+
+/*Halaman Produk*/
+.galeri-produk {
+  margin-top: 30px;
+}
+
+.gambar-produk {
+  border: 3px solid #c6a65c;
+  margin-bottom: 20px;
+}
+
+/*Halaman Pembayaran*/
+.payment {
+  margin-top: 20px;
+}
+
+.table-bordered {
+  margin-top: 40px;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1.5px solid #dee2e6;
+  font-family: EB Garamond;
+  color: #c6a65c;
+}
+
+.table-bordered .judul {
+  background-color: #c6a65c;
+  color: #fff;
+  font-weight: normal;
+  font-size: 17px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: 2px solid #c6a65c;
+}
+
+.table-bordered td {
+  background-color: #fff;
+}
+
+/*Halaman Hubungi Kami*/
+
+/*Lokasi*/
+.lokasi {
+  margin-bottom: 0;
+  box-shadow: 3px 3px 5px #b5b5b5;
+}
+
+.lokasi h2 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 37px;
+  color: #c6a65c;
+  text-align: center;
+  letter-spacing: -1px;
+  margin-top: 17px;
+  margin-bottom: -2px;
+}
+
+.lokasi .tagline-2,
+.lokasi .tagline-2 a {
+  display: block;
+  margin-bottom: 25px;
+  text-align: center;
+  color: #c6a65c;
+}
+
+/*Info*/
+.info {
+  background-image: url("../images/texture-2.png");
+}
+
+.info .info-kontak h2 {
+  font-family: Times New Roman;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #c6a65c;
+  margin-bottom: 9px;
+  line-height: 17px;
+}
+
+.info .info-kontak ul {
+  list-style: none;
+  margin-top: 21.5px;
+  margin-bottom: 21.5px;
+  padding-left: 0;
+}
+
+.info .info-kontak ul li {
+  font-family: EB Garamond;
+  color: #c6a65c;
+  font-size: 19px;
+  line-height: 27px;
+}
+
+.info .info-kontak .phone-icon-1 {
+  margin-right: 12px;
+  color: #c6a65c;
+  font-size: 35px;
+  float: left;
+  line-height: 25px;
+}
+
+.info .info-kontak .phone-icon-2 {
+  margin-left: 2px;
+  margin-right: 8px;
+  font-size: 21px;
+}
+
+.info .info-kontak .mail-icon {
+  margin-right: 5px;
+  color: #c6a65c;
+  font-size: 35px;
+  float: left;
+  height: 100px;
+  line-height: 60px;
+  padding-right: 12px;
+}
+
+/*My Form*/
+.my-form {
+  margin-top: 43px;
+}
+
+.custom-form {
+  position: relative;
+  color: rgba(255, 255, 255, 0.75) !important;
+  margin-bottom: 12px;
+}
+
+.judul-form {
+  position: absolute;
+  top: 7px;
+  left: 20px;
+  z-index: 1;
+  color: #c6a65c;
+  font-size: 13.5px;
+}
+
+.isi-form {
+  padding: 36px 19px 23px;
+  border-radius: 0;
+  font-size: 16px;
+}
+
+.isi-form:focus {
+  border: 1px solid #ced4da;
+  box-shadow: none;
+}
+
+.btn-custom {
+  background-color: #c6a65c;
+  border-radius: 0;
+  border: 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-top: 12px;
+  border: 0;
+  text-transform: uppercase;
+}
+
+.btn-custom:hover {
+  background-color: #c0a056;
+  transition: 0.2s;
+  color: #fff;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #c0a056;
+  border: 0 !important;
+  color: #fff;
+}
+
+.btn-icon {
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.paket_dekorasi {
+  background-image: url("../images/texture-1.png");
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 3px 3px 5px #cfcfcf;
+  border-top: 4px solid #c6a65c;
+}
+
+.paket_dekorasi h2 {
+  font-family: "Euphoria Script", cursive;
+  font-size: 37px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #c0a056;
+  margin-bottom: 0;
+}
+
+/*Footer*/
+.footer {
+  background: url("../images/texture-1.png");
+  padding-top: 20px;
+  padding-bottom: 11px;
+  position: relative;
+}
+
+.footer .logo-footer {
+  margin-bottom: 10px;
+}
+
+.footer .sosial-media {
+  margin-top: 15px;
+  position: absolute;
+  right: 0;
+}
+
+/*Icon Sosial Media*/
+/*Twitter*/
+.footer .fsi-1 {
+  background-color: #2c2c2c;
+  font-size: 26px;
+  color: #b0b0b0;
+  border-radius: 50px;
+  padding: 8px 9px;
+  margin-right: 3px;
+}
+
+.footer .fsi-1:hover {
+  background-color: #29a8eb;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/*Facebook*/
+.footer .fsi-2 {
+  background-color: #2c2c2c;
+  font-size: 26px;
+  color: #b0b0b0;
+  border-radius: 50px;
+  padding: 8px 15px;
+  margin-right: 3px;
+}
+
+.footer .fsi-2:hover {
+  background-color: #3b579d;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/*Instagram*/
+.footer .fsi-3 {
+  background-color: #2c2c2c;
+  font-size: 26px;
+  color: #b0b0b0;
+  border-radius: 50px;
+  padding: 8px 11px;
+  margin-right: 3px;
+}
+
+.footer .fsi-3:hover {
+  background-color: #d62976;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/*YouTube*/
+.footer .fsi-4 {
+  background-color: #2c2c2c;
+  font-size: 26px;
+  color: #b0b0b0;
+  border-radius: 50px;
+  padding: 8px;
+  margin-right: 3px;
+}
+
+.footer .fsi-4:hover {
+  background-color: #cd201f;
+  transition: 0.3s;
+  color: #fff;
+}
+
+/*WhatsApp*/
+.footer .fsi-5 {
+  background-color: #2c2c2c;
+  font-size: 26px;
+  color: #b0b0b0;
+  border-radius: 50px;
+  padding: 8px 11px;
+}
+
+.footer .fsi-5:hover {
+  background-color: #25d366;
+  transition: 0.3s;
+  color: #fff;
+}
+
+.footer .line-1 {
+  border-bottom: 1px solid #282828;
+}
+
+.footer .line-2 {
+  border-top: 2px solid #050505;
+}
+
+.footer .footer-title {
+  background-color: transparent;
+  border: 0;
+  color: #fff;
+  padding: 0;
+  margin-bottom: 3px;
+  font-size: 16px;
+}
+
+.footer .footer-icon-1 {
+  margin-right: 7px;
+  font-size: 15px;
+}
+
+.footer .footer-list-1,
+.footer .footer-list-1 a {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.5);
+  border: 0;
+  font-size: 14px;
+  line-height: 26px;
+  padding: 0;
+}
+
+.footer .footer-list-1 a:hover {
+  text-decoration: none;
+  transition: 0.2s;
+  color: #ccc;
+}
+
+.footer .wechat-1 {
+  margin-top: 16px;
+}
+
+.footer .enter-1 {
+  margin-bottom: 8px;
+}
+
+.footer .enter-2 {
+  margin-bottom: 10px;
+}
+
+.footer .space-1 {
+  height: 12px;
+}
+
+.footer .space-2 {
+  padding-left: 45px;
+}
+
+.footer .copyright,
+.footer .copyright a {
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 17px;
+  display: inline-block;
+  font-size: 13.5px;
+}
+
+.footer .copyright a:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  color: #ccc;
+}
+
+.floatingWA {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  bottom: 25px;
+  right: 50px;
+  z-index: 10;
+}
+
+.floatingWA-item {
+  width: 100%;
+  margin-right: 15px;
+}
+
+.floatingWA-item:last-child {
+  width: 100%;
+  margin-right: 0;
+}
+
+.blockImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    padding-left: 7px;
+  }
+  .navbar-collapse {
+    margin-top: 12px;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .dropdown-item:focus,
+  .dropdown-item:hover {
+    background-color: transparent;
+    color: #ccc;
+  }
+  .tentang-kami {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .tentang-kami .isi-tentang-kami {
+    margin-top: 15px;
+  }
+  .tentang-kami .isi-tentang-kami p {
+    padding: 10px;
+    line-height: 25px;
+    font-size: 17.5px;
+  }
+  .paket-dekorasi {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 23px;
+  }
+  .pilihan-paket-dekor {
+    margin-bottom: 23px;
+  }
+  .galeri {
+    margin-top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .tentang-kami_ h2 {
+    margin-bottom: 23px;
+  }
+  .tentang-kami_ p {
+    font-size: 17.5px;
+    line-height: 24px;
+  }
+  .payment {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .info {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+  .info .info-kontak .phone-icon-2 {
+    font-size: 19px;
+  }
+  .info .info-kontak h2 {
+    font-size: 19px;
+    margin-bottom: 7px;
+  }
+  .info .info-kontak ul {
+    padding-left: 0 !important;
+    margin-bottom: 5px;
+  }
+  .info .info-kontak ul li {
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .my-form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .footer .sosial-media_ {
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+  .footer .space-2 {
+    padding-left: 0;
+  }
+  .floatingWA {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+}
